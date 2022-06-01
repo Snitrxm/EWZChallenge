@@ -1,4 +1,4 @@
-# EWZ Challenge - Projeto feito para estagio em programaçao back-end
+# 💻 EWZ Challenge - Projeto feito para estágio em programação back-end
 
 ## 🚀 Tecnologias Usadas
 - NodeJS
@@ -13,27 +13,32 @@
 
 ## O que é e como usar?
 
-O projeto consiste em intregrar com a API do <a href="https://www.pipedrive.com/pt">Pipedrive</a> para fazer o gerenciamento das Oportunidades(Deals) e Ganhos
+O projeto consiste em integrar com a API do Pipedrive para fazer o gerenciamento das Oportunidades(Deals) e Ganhos
 
-Para começar, existem os EndPoints de Registro e Login do Usuario, na rota de registro o usuario fornecerá o TOKEN da API do Pipedrive juntamente com seu email e senha.
+Para começar, existem os EndPoints de Registro e Login do Usuário, na rota de registro o usuário fornecerá o TOKEN da API do Pipedrive juntamente com seu email e senha.
 
 Após feito o login, ele tera acesso a rotas das Deals
 
 ### All Deals Route
 
-Nessa rota o usuario podera ver todas as deals que ele ja fez, quando ele entrar nessa rota a API chama o banco de dados e faz uma sincronização, fazendo que todas as Deals fiquem salvas no banco!
+Nessa rota o usuário poderá ver todas as deals que ele já fez, quando ele entrar nessa rota a API chama o banco de dados e faz uma sincronização, fazendo que todas as Deals fiquem salvas no banco!
 
 ### Won Deals Route
 
-Na rota Won Deals o usuario poderá ver as Deals que estiverem com status won(ganho)
+Na rota Won Deals o usuário poderá ver as Deals que estiverem com status won(ganho)
 
 ### Search by day Route
 
-Nessa rota o usuario passara como parametro na URl um dia, a API era buscar no banco de dados todas as Deals feitas naquele dia!
+Nessa rota o usuário passará como parâmetro na URL um dia, a API era buscar no banco de dados todas as Deals feitas naquele dia!
 
 ## Instalação
 
+```terminal
+$ git clone https://github.com/Snitrxm/EWZChallenge.git
+
+$ cd EWZChallenge
+
+$ npm run dev
 ```
-$ git clone
 
 
