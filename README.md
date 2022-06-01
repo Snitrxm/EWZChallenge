@@ -31,9 +31,9 @@ Na rota Won Deals o usuario poderá ver as Deals que estiverem com status won(ga
 
 Nessa rota o usuario passara como parametro na URl um dia, a API era buscar no banco de dados todas as Deals feitas naquele dia!
 
-## Como clonar?
+## Instalação
 
 ```
-git clone
+$ git clone
 
 
